@@ -1,0 +1,10 @@
+baseUrl: https://www.qainfotech.com
+Credentials: zyx
+send: yes
+
+email:
+    recepients: 
+        recepient1:pradeepkumar1@qainfotech.com
+        
+Name: pradeep kumar
+password: abc

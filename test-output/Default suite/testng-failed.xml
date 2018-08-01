@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.qait.acs.tests.TestFirst"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qait.acs.tests.TestFirst">
+        <methods>
+          <include name="checkingteam"/>
+          <include name="Start_Test_Session"/>
+          <include name="testingvertical"/>
+          <include name="verify_download_section"/>
+          <include name="handleTestMethodName"/>
+          <include name="take_screenshot_on_failure"/>
+          <include name="close_Test_Session"/>
+          <include name="testingcontact"/>
+          <include name="verify_vertical_ssection"/>
+        </methods>
+      </class> <!-- com.qait.acs.tests.TestFirst -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
